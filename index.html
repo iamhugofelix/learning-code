@@ -3,6 +3,7 @@
 <head>
     <title>My First Blog</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -14,6 +15,18 @@
             <p>This is the content of my first blog post!</p>
         </article>
     </main>
+    <form>
+        <h2>New Post</h2>
+        <label for="title">Title:</label>
+            <br>
+        <input type="text" id="title">
+            <br>
+        <label for="content">Content:</label>
+            <br>
+        <textarea id="content"></textarea>
+            <br>
+            <button type="submit"> Submit Post</button>
+    </form>
     <footer>
         <p>2023 My First Blog Post</p>
     </footer>
